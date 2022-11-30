@@ -1,0 +1,46 @@
+h3 {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.buttons button {
+  font-family: cursive;
+  font-size: 1.5em;
+  padding: 10px;
+  width: 200px;
+  margin: 20px;
+  background-color: cornsilk;
+  border: chocolate solid 3px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.redirection {
+  color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  text-align: center;
+  border: solid brown;
+  border-radius: 20px;
+  background-color: chocolate;
+  margin: 10px;
+  padding: 5px;
+}
+
+.go-button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.go-button:hover {
+  color: chocolate;
+  background-color: darkblue;
+}
